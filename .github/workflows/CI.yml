@@ -1,4 +1,4 @@
-name: Build and Test the app 
+name: Build and Test the app - test Feature Branches
 
 on:
   push:
