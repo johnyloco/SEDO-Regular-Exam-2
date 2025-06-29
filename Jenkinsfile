@@ -1,10 +1,6 @@
 pipeline {
     agent any
 
-    triggers {
-        pollSCM('* * * * *') // Optional: polling trigger (use Webhooks instead if possible)
-    }
-
     stages {
         stage('Checkout') {
             steps {
