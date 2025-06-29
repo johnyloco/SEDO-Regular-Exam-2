@@ -3,8 +3,8 @@ name: Build and Test the app
 on:
   push:
     branches: 
-     - develope
-     - 'feature/**'
+     - main
+     - 'feature'
 
 jobs:
   build_test:
